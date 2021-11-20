@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 5vh;  
+}
+
+a{
+    text-decoration: none;
+    color: #7ef542;
+    font-size: 3vh;
+}
+
+a:hover{
+    text-shadow: 1px 1px 10px red;
+}
